@@ -20,6 +20,8 @@ Beginner Terraform project deploying AWS infrastructure.
 ├── provider.tf
 ├── variables.tf
 ├── outputs.tf
+├── ec2.tf
+├── .gitignore
 └── README.md
 ```
 
@@ -45,3 +47,10 @@ terraform apply
 - AWS resource provisioning
 - Infrastructure as Code principles
 - Terraform workflow
+
+## Resources Created
+
+- AWS S3 Bucket
+- AWS EC2 Instance
+- Bucket Versioning
+- Improve README structure
