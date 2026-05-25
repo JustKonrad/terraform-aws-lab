@@ -54,4 +54,4 @@ terraform apply
 - AWS EC2 Instance
 - Bucket Versioning
 - Improve README structure
-- Added additional deployment documentationn
+- Added additional deployment documentation
