@@ -13,7 +13,17 @@ Beginner Terraform project deploying AWS infrastructure.
 - Enables bucket versioning
 - Uses Terraform provider configuration
 
-## Commands
+## Project Structure
+```bash
+.
+├── main.tf
+├── provider.tf
+├── variables.tf
+├── outputs.tf
+└── README.md
+```
+
+## Usage
 
 Initialize Terraform:
 ```bash
@@ -25,14 +35,13 @@ Preview changes:
 terraform plan
 ```
 
-Apply infrastructure:
+Deploy infrastructure:
 ```bash
 terraform apply
 ```
 
-## Learning Goals
-This project was created to practice:
+## What I Learned
 - Terraform basics
-- AWS infrastructure deployment
-- Infrastructure as Code concepts
-- Cloud automation
+- AWS resource provisioning
+- Infrastructure as Code principles
+- Terraform workflow
