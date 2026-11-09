@@ -1,0 +1,5 @@
+# Copy this file to terraform.tfvars and put your own values.
+# terraform.tfvars is in .gitignore, so it won't be committed.
+allowed_ssh_cidr = "203.0.113.10/32"
+bucket_name      = "your-unique-bucket-name"
+# key_name       = "my-keypair"
